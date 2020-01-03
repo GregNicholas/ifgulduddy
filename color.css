@@ -1,0 +1,57 @@
+colorGame.css
+
+Type
+Style Sheet
+Size
+465 bytes
+Storage used
+465 bytes
+Location
+Colorpicker
+Owner
+me
+Modified
+3:48 PM by me
+Opened
+7:53 PM by me
+Created
+3:48 PM with Google Drive Web
+Add a description
+Viewers can download
+body {
+    background-color: #2e2e2e;
+}
+
+.square {
+    width: 30%;
+    background: #2e2e2e;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 20%;
+}
+
+#container {
+    margin: 0 auto;
+    max-width: 67%;
+}
+
+h1 {
+    color: rgb(21, 138, 233);
+    text-align: center;
+}
+
+#stripe {
+    background: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+
+button {
+    border: none;
+}
+
+.selected {
+    background-color: aqua;
+}
