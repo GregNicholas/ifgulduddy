@@ -1,25 +1,8 @@
-colorGame.css
 
-Type
-Style Sheet
-Size
-465 bytes
-Storage used
-465 bytes
-Location
-Colorpicker
-Owner
-me
-Modified
-3:48 PM by me
-Opened
-7:53 PM by me
-Created
-3:48 PM with Google Drive Web
-Add a description
-Viewers can download
 body {
     background-color: #2e2e2e;
+    margin: 0 auto;
+    font-family: "comic sans ms";
 }
 
 .square {
@@ -36,9 +19,19 @@ body {
     max-width: 67%;
 }
 
+#colorDisplay {
+  font-size: 200%;
+}
+
 h1 {
-    color: rgb(21, 138, 233);
+    color: white;
     text-align: center;
+    font-weight: normal;
+    margin: 0 auto
+    text-transform: uppercase;
+    line-height: 1.1;
+    padding: 20px 0;
+    background-color: steelblue;
 }
 
 #stripe {
@@ -50,6 +43,11 @@ h1 {
 
 button {
     border: none;
+    background-color: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
 }
 
 .selected {
