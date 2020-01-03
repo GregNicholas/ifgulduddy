@@ -1,11 +1,59 @@
-<!DOCTYPE html>
-<html>
+colorGame.html
+
+Type
+HTML
+Size
+1 KB (1,101 bytes)
+Storage used
+1 KB (1,101 bytes)
+Location
+Colorpicker
+Owner
+me
+Modified
+3:48 PM by me
+Opened
+7:52 PM by me
+Created
+3:48 PM with Google Drive Web
+Add a description
+Viewers can download
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>JS Bin</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Color Game</title>
+    <link rel="stylesheet" type="text/css" href="colorGame.css">
 </head>
 <body>
-<h1>This is where the magic happens</h1>
+    <h1>Click the color that is: 
+        <br>
+        <span id="colorDisplay">RGB</span> 
+        <br>
+        Color Game</h1>
+
+    <div id="stripe">
+    <button id="reset">New Colors</button>
+    <span id="message"></span>
+    <button id="easyMode">Easy</button>
+    <button id="mediumMode" class="selected">Hard</button>
+    <button id="hardMode">Super Hard!</button>
+    </div>
+
+    <div id ="container">
+       <div class="square"></div>
+       <div class="square"></div>
+       <div class="square"></div>
+       <div class="square"></div>
+       <div class="square"></div>
+       <div class="square"></div>
+       <div class="square"></div>
+       <div class="square"></div>
+       <div class="square"></div>
+    </div>
+
+
+    <script type="text/javascript" src="colorGame.js"></script>
 </body>
 </html>
