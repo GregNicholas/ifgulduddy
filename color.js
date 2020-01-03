@@ -1,22 +1,4 @@
-colorGame.js
-Type
-Javascript
-Size
-4 KB (3,707 bytes)
-Storage used
-4 KB (3,707 bytes)
-Location
-Colorpicker
-Owner
-me
-Modified
-3:48 PM by me
-Opened
-7:59 PM by me
-Created
-3:48 PM with Google Drive Web
-Add a description
-Viewers can download
+
 let colors = setColors(6);
 let squares = document.querySelectorAll(".square");
 let pickedColor = pickColor();
@@ -75,7 +57,7 @@ function resetGame(mode){
             }
         }
         //reset H1 display
-        h1.style.backgroundColor = "#2e2e2e";
+        h1.style.backgroundColor = "steelblue";
         //reset button
         resetButton.textContent = "New Colors";
         //message
